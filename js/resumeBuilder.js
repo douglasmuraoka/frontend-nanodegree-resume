@@ -9,7 +9,7 @@ var bio = {
 		github: "douglasmuraoka",
 		location: "São José dos Campos, São Paulo, Brazil"
 	},
-	biopic: "http://i.imgur.com/WBxh6M4.jpg",
+	biopic: "images/profile.jpg",
 	welcomeMessage: "Hello Javascript templating world :)",
 	skills: ["Java", "Spring Framework", "Hibernate", "HTML", "CSS", "JavaScript"],
 	display: function () {
@@ -92,13 +92,13 @@ var projects = {
 			title: "Scheduler Rede D'Or São Luiz",
 			dates: "2016 - Current",
 			description: "Enterprise integration patterns",
-			images: ["https://visualhunt.com/photos/l/1/stethoscope-and-ballpen-on-prescription.jpg"]
+			images: ["images/stethoscope-and-ballpen-on-prescription.jpg"]
 		},
 		{
 			title: "DokYou",
 			dates: "2012 - Current",
 			description: "PDF and XLS/XLSX dynamic document generator",
-			images: ["https://visualhunt.com/photos/l/1/laptop-with-mouse-and-mug-on-documents.jpg"]
+			images: ["images/laptop-with-mouse-and-mug-on-documents.jpg"]
 		}
 	],
 	display : function () {
