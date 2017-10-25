@@ -18,9 +18,28 @@ h6 {
   overflow: auto;
 }
 
-.education-entry,
-.work-entry,
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#projects h2 {
+  width: 100%;
+}
+
 .project-entry {
+  width: 40%;
+  padding: 0 5%;
+}
+
+.project-entry img {
+  width: 100%;
+  box-shadow: 0 0 6px 7px antiquewhite;
+  margin: 10px 0;
+}
+
+.education-entry,
+.work-entry {
   padding: 0 5%;
 }
 
@@ -158,13 +177,11 @@ ul {
 
 .biopic {
   float: left;
-  padding: 10px;
+  padding: 0px;
+  margin: 10px;
   width: 200px;
   display: none;
-}
-
-img {
-  padding: 10px;
+  box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.75);
 }
 
 span {
