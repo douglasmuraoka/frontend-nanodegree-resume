@@ -139,7 +139,7 @@ var education = {
 		}
 	],
 	display: function () {
-		for (var s = 0; s < education.schools; s++) {
+		for (var s = 0; s < education.schools.length; s++) {
 			var school = education.schools[s];
 			$("#education").append(HTMLschoolStart);
 			var name = HTMLschoolName.replace("%data%", school.name);
@@ -147,7 +147,7 @@ var education = {
 			$(".education-entry:last").append(name + degree);
 			$(".education-entry:last").append(HTMLschoolDates.replace("%data%", school.dates));
 			$(".education-entry:last").append(HTMLschoolLocation.replace("%data%", school.location));
-			for (var m = 0; m < school.majors; m++) {
+			for (var m = 0; m < school.majors.length; m++) {
 				$(".education-entry:last").append(HTMLschoolMajor.replace("%data%", school.majors[m]));
 			}
 		}
@@ -155,7 +155,7 @@ var education = {
 		if (education.onlineCourses.length > 0) {
 			$("#education").append(HTMLonlineClasses);
 			$("#education").append(HTMLschoolStart);
-			for (var c = 0; c < education.onlineCourses; c++) {
+			for (var c = 0; c < education.onlineCourses.length; c++) {
 				var course = education.onlineCourses[c];
 				var title = HTMLonlineTitle.replace("%data%", course.title);
 				var onlineSchool = HTMLonlineSchool.replace("%data%", course.school);
