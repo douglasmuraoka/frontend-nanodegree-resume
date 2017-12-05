@@ -10,7 +10,7 @@ var labels = {
 		location: "location"
 	},
 	pt: {
-		workExperience: "Experiência de Trabalho",
+		workExperience: "Experiência Profissional",
 		projects: "Projetos",
 		education: "Educação",
 		major: "Area",
@@ -161,7 +161,7 @@ var work = {
 					"de relatórios e gráficos dinâmicos",
 
 					"Coletar requisitos de gerentes de setores para arquitetar e implementar novos projetos, além de discutir as soluções adotadas " +
-					"sempre que possível para garantir que estavam sendo atentidos todos os requisitos",
+					"sempre que possível para garantir que estavam sendo atendidos todos os requisitos",
 
 					"Prover com sucesso treinamentos de usuários, ensinando-os como usar os novos sistemas implementados, explicando as novas " +
 					"funcionalidades e detalhes de usabilidade; e compartilhando conhecimento de negócio, para tirar dúvidas e discutir sobre a " +
